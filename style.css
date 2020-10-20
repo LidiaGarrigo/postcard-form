@@ -1,1 +1,45 @@
+#background {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: local;
+    background-position: center center;
+    border: solid;
+}
 
+.grid {
+    display: grid;
+    grid-template-rows: 165px 80px 80px 100px 100px;
+    grid-template-columns: 50% 130px auto;
+}
+.grid_item1 {
+
+}
+.grid_item2 {
+    grid-row: 2;
+    grid-column: 2 / span 2 ;
+    margin-left: 100px;
+    
+}
+.grid_item3 {
+    grid-row: 3;
+    grid-column: 2 / span 2 ;
+    margin-left: 100px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.grid_item3 input {
+    border: none;
+}
+.grid_item4 {
+    grid-row: 4;
+    grid-column: 2 / span 2 ;
+    margin-left: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+.grid_item4 input {
+    border: none;
+}
